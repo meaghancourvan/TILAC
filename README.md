@@ -1,7 +1,8 @@
 # TILAC
 
-Courvan, M.C.S., Vock, I.W., Niederer, R.O., Kiefer, L., Gilbert, W.V., Simon, M.D. 2022. Internally normalized RNA sequencing
-comparisons using nucleoside recoding chemistry. Nucleic Acids Res, doi: 10.1093/nar/gkac693. [link](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac693/6677324?login=false)
+[TILAC Paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac693/6677324?login=false)
+- Courvan, M.C.S., Vock, I.W., Niederer, R.O., Kiefer, L., Gilbert, W.V., Simon, M.D. 2022. Internally normalized RNA sequencing
+comparisons using nucleoside recoding chemistry. Nucleic Acids Res, doi: 10.1093/nar/gkac693.
 
 To make accurate estiamtes of differences in RNA levels between experimental and control samples, measurement methods need to distinguish between biological variation and technical noise. We developed a method called TILAC, which achieves this using the metabolic labels s4U and s6G. In a TILAC experiment, RNA from one sample is labeled with s4U, and the other is labeled with s6G. Cells from each sample are mixed prior to any downstream biochemical steps, like fractionation or polysome purification. During sequencing library preparation, RNA is treated with TimeLapse chemistry to recode the hydrogen bonding pattern of s4U -> C and s6G -> A. After sequencing, the amount of RNA that was present in either sample can be inferred, using a statistical model, from the presence of T -> C or G -> A mutations in reads. 
 
