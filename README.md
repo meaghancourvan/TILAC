@@ -9,7 +9,9 @@ To make accurate estiamtes of differences in RNA levels between experimental and
 comparisons using nucleoside recoding chemistry. Nucleic Acids Res, doi: 10.1093/nar/gkac693.
 
 
-***
+
+___
+
 
 The statistical model used to analyze TILAC data is an extension of the model published by Schofield et al. 2018. 
 
