@@ -16,8 +16,6 @@ ___
 
 ### Model and Code
 
-The statistical model used to analyze TILAC data is an extension of the model published by Schofield et al. 2018. 
-
 Raw sequencing data was processed using a [pipeline](https://bitbucket.org/mattsimon9/timelapse_pipeline/src/master/) developed by former members of the Simon Lab. 
 
 - **hs_dataset.rds** - contains data from a heat shock experiment peformed in *Drosophila* S2 cells
