@@ -1,5 +1,7 @@
 # [TILAC](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac693/6677324?login=false)
 
+### Background
+
 To make accurate estiamtes of differences in RNA levels between experimental and control samples, measurement methods need to distinguish between biological variation and technical noise. We developed a method called TILAC, which achieves this using the metabolic labels s4U and s6G. In a TILAC experiment, RNA from one sample is labeled with s4U, and the other is labeled with s6G. Cells from each sample are mixed prior to any downstream biochemical steps, like fractionation or polysome purification. During sequencing library preparation, RNA is treated with TimeLapse chemistry to recode the hydrogen bonding pattern of s4U -> C and s6G -> A. After sequencing, the amount of RNA that was present in either sample can be inferred, using a statistical model, from the presence of T -> C or G -> A mutations in reads. 
 
 **Figure 1A**
@@ -12,6 +14,7 @@ comparisons using nucleoside recoding chemistry. Nucleic Acids Res, doi: 10.1093
 
 ___
 
+### Model and Code
 
 The statistical model used to analyze TILAC data is an extension of the model published by Schofield et al. 2018. 
 
