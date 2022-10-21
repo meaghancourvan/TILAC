@@ -5,6 +5,7 @@ To make accurate estiamtes of differences in RNA levels between experimental and
 - Courvan, M.C.S., Vock, I.W., Niederer, R.O., Kiefer, L., Gilbert, W.V., Simon, M.D. 2022. Internally normalized RNA sequencing
 comparisons using nucleoside recoding chemistry. Nucleic Acids Res, doi: 10.1093/nar/gkac693.
 
+
 ![alt text](https://github.com/meaghancourvan/TILAC/blob/main/TILAC_Figure1.png)
 
 The statistical model used to analyze TILAC data is an extension of the model published by Schofield et al. 2018. 
